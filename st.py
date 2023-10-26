@@ -10,6 +10,8 @@ st.set_page_config(
 )
 
 st.title("Iris Dataset Analysis")
-data = pd.read_csv("./data/HousePricePrediction/train.csv")
+data = pd.read_csv("./data/Iris.csv")
 st.write(data)
+
+
 
